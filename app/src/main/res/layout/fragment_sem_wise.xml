@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imadhik.cgpaassist.SemWiseFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/semgpaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/lightgrey"
+        android:gravity="center"
+        android:text="0.0"
+        android:textSize="35sp" />
+
+
+    <ScrollView
+        android:id="@+id/ScrollSemWise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="120dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutSemWise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/semgpaTextView"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

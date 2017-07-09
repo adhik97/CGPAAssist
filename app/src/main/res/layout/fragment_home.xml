@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imadhik.cgpaassist.SemWiseFragment">
+
+
+        <TextView
+            android:id="@+id/cgpaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/lightgrey"
+            android:gravity="center"
+            android:text="0.0"
+            android:textSize="35sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cgpaTextView"
+            android:layout_alignParentStart="true"
+            android:id="@+id/scrollView2">
+
+                <LinearLayout
+                    android:id="@+id/homeLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+        </ScrollView>
+
+</RelativeLayout>
